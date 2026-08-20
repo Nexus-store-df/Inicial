@@ -206,7 +206,7 @@ function vitePluginStorageProxy(): Plugin {
 const plugins = [react(), tailwindcss(), jsxLocPlugin(), vitePluginManusRuntime(), vitePluginManusDebugCollector(), vitePluginStorageProxy()];
 
 export default defineConfig({
-  base: process.env.GITHUB_PAGES === 'true' ? '/Home/' : '/',
+  base: process.env.GITHUB_PAGES === 'true' ? '/Inicial/' : '/',
   publicDir: path.resolve(import.meta.dirname, 'github-pages-assets'),
   plugins,
   resolve: {
