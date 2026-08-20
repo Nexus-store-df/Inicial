@@ -1,0 +1,34 @@
+{
+  "build_command": "pnpm run build",
+  "capabilities": [],
+  "dev_command": "pnpm run dev",
+  "env_vars": {},
+  "experiments": null,
+  "git_remote": {
+    "repo_url": "https://7f0548f6b28a1758d9bf7be630d36cb4.artifacts.cloudflare.net/git/prod/QsQYCDfFctMBGuDmk7Sz3F.git",
+    "expiration": "2026-08-09T18:20:23.647Z",
+    "token": "art_v1_a6542767c219c5e0eca4e57043f3e4f5dbe61c12?expires=1786299623",
+    "backend": "GIT_BACKEND_ARTIFACTS"
+  },
+  "name": "nexus-store-lp",
+  "path": "/home/ubuntu/nexus-store-lp",
+  "port": 3000,
+  "secrets": {
+    "BUILT_IN_FORGE_API_KEY": "U7hkgrCsonuVpfGtmFJBLK",
+    "BUILT_IN_FORGE_API_URL": "https://forge.manus.ai",
+    "JWT_SECRET": "k2JFADb2hdEyc4pWonE5MZ",
+    "OAUTH_SERVER_URL": "https://api.manus.im",
+    "OWNER_NAME": "Gabi Gonçalves",
+    "OWNER_OPEN_ID": "jYWKfzwmE8wxsvSLE6CfX7",
+    "VITE_ANALYTICS_ENDPOINT": "https://manus-analytics.com",
+    "VITE_ANALYTICS_WEBSITE_ID": "4c977657-30f9-45f5-b7ae-c999f80c1374",
+    "VITE_APP_ID": "QsQYCDfFctMBGuDmk7Sz3F",
+    "VITE_APP_LOGO": "",
+    "VITE_APP_TITLE": "NEXUS STORE - Tecnologia e Confiança",
+    "VITE_FRONTEND_FORGE_API_KEY": "UyHubMXpwgRT63eoSqG7xj",
+    "VITE_FRONTEND_FORGE_API_URL": "https://forge.manus.ai",
+    "VITE_OAUTH_PORTAL_URL": "https://manus.im"
+  },
+  "template_id": "web-static",
+  "test_command": "pnpm test"
+}
